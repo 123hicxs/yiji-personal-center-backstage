@@ -1,0 +1,8 @@
+.description {
+    position: absolute;
+}
+
+.glass img {
+    width: 70%;
+    max-width: 500px;
+}

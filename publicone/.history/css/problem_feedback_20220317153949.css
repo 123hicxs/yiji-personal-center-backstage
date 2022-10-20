@@ -1,0 +1,98 @@
+.problem-feedback {
+    position: relative;
+}
+
+.text-opinion {
+    box-sizing: border-box;
+    display: block;
+    resize: none;
+    width: 100%;
+    height: 50rem;
+    font-size: 3rem;
+    color: #fff;
+    opacity: .6;
+}
+
+.text-box {
+    position: relative;
+}
+
+.text-box::after {
+    content: "不超过200字";
+    position: absolute;
+    bottom: 2rem;
+    right: 5rem;
+    font-size: 2.5rem;
+    opacity: .6;
+}
+
+.upload-photos {
+    position: relative;
+    display: block;
+    width: 20rem;
+    height: 20rem;
+    margin: 5rem auto;
+    margin-left: 0;
+}
+
+.select-photos {
+    width: 20rem;
+    height: 20rem;
+    font-size: 4rem;
+    font-weight: 100;
+    background-color: rgba(200, 200, 200, .2);
+    color: #fff;
+    opacity: .5;
+    border-radius: 2rem;
+}
+
+#upload {
+    cursor: pointer;
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    top: 0;
+    left: 0;
+    background-color: red;
+}
+
+.submit {
+    display: block;
+    width: 80%;
+    cursor: pointer;
+    padding: 4rem;
+    font-size: 4rem;
+    margin: 50rem auto 10rem;
+    border-radius: 2.5rem;
+    background-color: rgba(255, 255, 255, .1);
+    color: rgba(245, 245, 245, 0.5);
+}
+
+.submitSuccess {
+    display: none;
+    position: absolute;
+    text-align: center;
+    font-size: 3rem;
+    top: 50%;
+    width: 100%;
+}
+
+.submitSuccess span {
+    border-radius: 4rem;
+    background-color: rgba(0, 0, 0, .5);
+    opacity: .8;
+    padding: 1rem 5rem;
+}
+
+.zhuan-zai {
+    width: 100%;
+    margin-bottom: 7rem;
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.zhuan-zai a {
+    float: left;
+    margin-top: -1rem;
+}

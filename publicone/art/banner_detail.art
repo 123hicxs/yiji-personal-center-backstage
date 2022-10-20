@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/banner_detail.css">
+
+    <title id="title">{{elementData.title}}</title>
+</head>
+
+<body>
+    <div class="banner-detail">
+        <div class="glass" style="text-align: center;">
+            <div class="description">
+                <p id="detail-topic">{{elementData.abstractData[0]}}</p>
+                <p id="detail-remind">{{elementData.abstractData[1]}}</p>
+            </div>
+            <img src="{{elementData.abstractData[2]}}" alt="" id="detail-img">
+        </div>
+        <div class="glass" id="detail-description">
+        {{each cyclicData}}
+            <p class="description-style">{{$value[0]}}</p>
+        {{/each}}    
+        
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

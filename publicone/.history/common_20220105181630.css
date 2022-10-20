@@ -1,0 +1,8 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: PingFang SC;
+    padding: 0 2%;
+    color: #fff;
+    background: linear-gradient(192.04deg, #1D0D36 0%, #111111 100%);
+}

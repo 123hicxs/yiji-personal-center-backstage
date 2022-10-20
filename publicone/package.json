@@ -1,0 +1,29 @@
+{
+    "name": "my_mdtohtml",
+    "version": "1.0.0",
+    "description": "仅限内部使用，请勿外传",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "guxifeng",
+    "license": "ISC",
+    "dependencies": {
+        "art-template": "^4.13.2",
+        "async": "^3.2.3",
+        "hastscript": "^7.0.2",
+        "rehype-document": "^6.0.1",
+        "rehype-parse": "^8.0.4",
+        "rehype-stringify": "^9.0.3",
+        "remark-parse": "^10.0.1",
+        "remark-rehype": "^10.1.0",
+        "remark-stringify": "^10.0.2",
+        "to-vfile": "^7.2.3",
+        "unified": "^10.1.1",
+        "unified-stream": "^2.0.0",
+        "unist-util-find": "^1.0.2",
+        "unist-util-visit": "^4.1.0",
+        "vfile-reporter": "^7.0.3"
+    }
+}

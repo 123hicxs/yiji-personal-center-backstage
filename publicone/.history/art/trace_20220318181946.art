@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/trace.css">
+
+    <title id="title">{{elementData.title}}</title>
+</head>
+
+<body>
+    <div class="trace" id="recommend-module">
+        <div class="card">
+            <p class="card-style"><img src="./img/head_portrait.png" alt="" class="card-img">烊烊快跑</p>
+            <p style="font-size: 3rem;" id="signature">{{elementData.abstractData[0]}}</p>
+            <p style="font-size:2.5rem;padding-bottom: 10rem;" id="birthday">
+            {{if elementData.abstractData[1]=='男'}}
+            <span class="iconfont" style="margin-right: 3rem;"></span>
+            {{else if elementData.abstractData[1]=='女'}}
+            <span class="iconfont" style="margin-right: 3rem;"></span>
+            {{/if}}
+            {{elementData.abstractData[2]}}
+            </p>
+        </div>
+
+        <p class="select" style="font-size: 4.5rem;">动态<img src="./img/slider.png" alt="" class="slider"></p>
+        {{each cyclicData}}
+        <div class="glass trace-glass">
+            <p style="font-weight: 500;"><img src="./img/head_portrait.png" alt="" style="margin-right: 1.75rem;">{{$value[0]}}
+                <a href="#"><img class="forward" src="./img/zhuanzai.svg" alt=""></a>
+            </p>
+            <div class="video-class">
+            <video src="{{$value[1]}}" style="width: 85%;height:45rem;background: #686868;border-radius:1rem;" controls muted></video>
+            </div>
+            <div>
+                <p style="font-weight: 500;">{{$value[2]}}</p>
+                <p style="font-size: 3.5rem; opacity: .7;">{{$value[3]}}</p>
+            </div>
+        </div>
+        {{/each}}
+  
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

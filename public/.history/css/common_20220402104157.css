@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    touch-action: manipulation;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont.ttf?t=1641456659367') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    font-size: 4px;
+    touch-action: none;
+    touch-action: pan-y;
+}
+
+@media screen and (min-width:1400px) {
+    html {
+        font-size: 6px;
+    }
+}
+
+body {
+    position: relative;
+    box-sizing: border-box;
+    max-width: 2000px;
+    min-height: 100%;
+    background-color: #000;
+    margin: 0 auto;
+    font-family: PingFang SC, sans-serif;
+    color: #F5F5F5;
+    font-size: 5rem;
+    font-style: regular;
+    text-align: justify;
+    line-height: 5.25rem;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+    border: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+li {
+    list-style: none;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+input {
+    border: none;
+}

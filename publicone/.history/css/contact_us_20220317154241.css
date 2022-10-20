@@ -1,0 +1,44 @@
+.yijikeji {
+    display: flex;
+}
+
+.yijikeji-left {
+    flex: 2;
+    text-align: center;
+}
+
+.yijikeji-left img {
+    width: 80%;
+    margin-left: -25%;
+    margin-top: 10%;
+}
+
+.yijikeji-right {
+    flex: 8;
+}
+
+.yiji {
+    font-weight: 500;
+}
+
+.yiji::after {
+    content: "以及科技有限公司";
+    font-size: 3rem;
+    margin-left: 2rem;
+    opacity: .7;
+}
+
+.qr-code {
+    display: inline-block;
+    width: 50%;
+}
+
+.qr-code p {
+    text-align: center;
+    font-size: 3.5rem;
+    opacity: .8;
+}
+
+.qr-code img {
+    width: 100%;
+}

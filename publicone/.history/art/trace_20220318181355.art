@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/trace.css">
+
+    <title id="title">{{elementData.title}}</title>
+</head>
+
+<body>
+    <div class="trace" id="recommend-module">
+        <div class="card">
+            <p class="card-style"><img src="./img/head_portrait.png" alt="" class="card-img">烊烊快跑</p>
+            <p style="font-size: 3rem;" id="signature">{{elementData.abstractData[0]}}</p>
+            <p style="font-size:2.5rem;padding-bottom: 10rem;" id="birthday">
+            {{if elementData.abstractData[1]=='男'}}
+            <span class="iconfont" style="margin-right: 3rem;"></span>
+            {{else if elementData.abstractData[1]=='女'}}
+            <span class="iconfont" style="margin-right: 3rem;"></span>
+            {{/if}}
+            {{elementData.abstractData[2]}}
+            </p>
+        </div>
+
+        <p class="select" style="font-size: 4.5rem;">动态<img src="./img/slider.png" alt="" class="slider"></p>
+        
+        <div class="glass trace-glass" id="module-single">
+            <p style="font-weight: 500;"><img src="./img/head_portrait.png" alt="" style="margin-right: 1.75rem;">以及
+                <a href="#"><img class="forward" src="./img/zhuanzai.svg" alt=""></a>
+            </p><video src="视频路子" style="width: 100%;background: #686868;" controls muted></video>
+            <div>
+                <p style="font-weight: 500;">智能家居未来的发展趋势/Subtitle3 3</p>
+                <p style="font-size: 3.5rem; opacity: .7;">尊敬的用户您好，今日您使用产品的总时长已达到6小时，且坐下时间</p>
+            </div>
+        </div>
+  
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

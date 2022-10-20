@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/withdraw.css">
+    <script src="./js/jQuery.js"></script>
+    <script src="./js/withdraw.js"></script>
+
+    <title>注销账号</title>
+</head>
+
+<body>
+    <div class="withdraw">
+        <div class="zhuan-zai">
+            <a href="./help.html" style="display:inline-block;width: 5%;"><img src="./img/lt.png" alt="" id="no-img" style="width: 2.5rem;"></a>
+            注销账号
+        </div>
+        <p style="font-weight: 500;">账号被注销后，如下信息将被清空，无法找回。</p>
+        <ul class="remind">
+            <li>各项设备使用数据，健康数据等</li>
+            <li>各项设备使用数据，健康数据等</li>
+            <li>各项设备使用数据，健康数据等</li>
+        </ul>
+        <div class="agreement">
+            <p><span style="background-color:#5D2DFD;">✔</span><u>我已阅读并同意《AMslash注销须知》</u></p>
+            <!-- <button>确定</button> -->
+            <a href="./withdraw_know.html"><button>确定</button></a>
+        </div>
+    </div>
+
+</body>
+
+</html>

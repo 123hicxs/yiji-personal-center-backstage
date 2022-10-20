@@ -1,0 +1,24 @@
+.one {
+    float: left;
+    height: 100px;
+    width: 300px;
+    background-color: blue;
+}
+.two {
+    height: 200px;
+    width: 400px;
+    background-color: red;
+}
+.subone {
+    float: left;
+    background-color: pink;
+}
+.subtwo {
+    float: right;
+}
+.ssubone {
+    float: left;
+}
+.ssubtwo {
+    display: block;
+}

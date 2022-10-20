@@ -1,0 +1,18 @@
+.glass a li {
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.glass a li span {
+    font-size: 4rem;
+}
+
+.glass a li span img {
+    float: right;
+    width: 12%;
+}
+
+body {
+    height: 100vh;
+}

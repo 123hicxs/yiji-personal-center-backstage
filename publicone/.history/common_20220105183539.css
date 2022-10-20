@@ -1,0 +1,33 @@
+* {
+    padding: 5px auto;
+}
+
+html {
+    font-size: 16px;
+}
+
+@media screen and (min-width:1400px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: PingFang SC, sans-serif;
+    padding: 0 2%;
+    color: #fff;
+    font-size: 4rem;
+    line-height: 5.25rem;
+    background: linear-gradient(192.04deg, #1D0D36 0%, #111111 100%);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+img {
+    vertical-align: middle;
+}

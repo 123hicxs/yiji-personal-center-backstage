@@ -1,0 +1,19 @@
+.glass {
+    position: relative;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 2%;
+    opacity: .7;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.discription {
+    position: absolute;
+}
+
+.glass img {
+    width: 70%;
+    max-width: 500px;
+}

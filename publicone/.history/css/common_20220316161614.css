@@ -1,0 +1,97 @@
+* {
+    padding: 1.25rem auto;
+    outline: none;
+    border: none;
+    touch-action: manipulation;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont.ttf?t=1641456659367') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    font-size: 4px;
+    touch-action: none;
+    touch-action: pan-y;
+}
+
+@media screen and (min-width:1400px) {
+    html {
+        font-size: 6px;
+    }
+}
+
+body {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 3rem;
+    font-family: PingFang SC, sans-serif;
+    color: #F5F5F5;
+    font-size: 4rem;
+    line-height: 5.25rem;
+    background: linear-gradient(45deg, #0b0625 0%, #2f1d47 100%);
+}
+
+body>div:first-child {
+    max-width: 960px;
+    min-height: 100vh;
+    margin: 5rem auto 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+    border: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    border: none;
+}
+
+.glass {
+    position: relative;
+    max-width: 900px;
+    background: rgba(200, 198, 241, 0.1);
+    border-radius: 3rem;
+    padding: 2.5rem 5rem;
+    margin: 3.75rem auto;
+}
+
+.description-style {
+    font-size: 3.5rem;
+    opacity: .9;
+}
+
+.footer a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10rem;
+    border-radius: 2rem;
+    background-color: rgba(200, 200, 200, .9);
+}
+
+.footer a:hover {
+    color: red;
+}

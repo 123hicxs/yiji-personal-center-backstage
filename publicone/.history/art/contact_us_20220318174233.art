@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/contact_us.css">
+
+    <title id="title">{{elementData.title}}</title>
+</head>
+
+<body>
+    <div class="contact-us">
+        <div class="zhuan-zai">
+            <a href="./help.html" style="display:inline-block;width: 5%;"><img src="./img/lt.png" alt="" id="no-img" style="width: 2.5rem;"></a>
+            联系我们
+        </div>
+        <label for="card">
+            <p>公众号</p>
+            <div class="glass yijikeji" id="card">
+                <div class="yijikeji-left">
+                    <img src="./img/portrait.svg" alt="">
+                </div>
+                <div class="yijikeji-right">
+                    <p class="yiji">以及科技</p>
+                                        <p style="font-size: 3.5rem;opacity: .9;" id="paragrah-one">{{elementData.abstractData[0]}}</p>
+                                        <p style="font-size: 3.5rem;opacity: .9;" id="paragrah-two">{{elementData.abstractData[1]}}</p>
+                                    </div>
+            </div>
+        </label>
+        <label for="join-wechat">
+            <p style="margin-top: 5rem;">微信群</p>
+            <div class="glass yijikeji" id="join-wechat">
+                <div class="yijikeji-left">
+                    <img src="./img/portrait.svg" alt="">
+                </div>
+                <div class="yijikeji-right">
+                    <p style="font-weight: 500;">以及科技</p>
+                    <div class="qr-code">
+                        <p>扫一扫进群</p>
+                        <img src="{{elementData.abstractData[2]}}" alt="" id="deal-erweima">
+                    </div>
+                    
+                </div>
+            </div>
+        </label>
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

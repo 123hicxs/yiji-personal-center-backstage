@@ -1,0 +1,43 @@
+* {
+    padding: 1.25rem auto;
+}
+
+html {
+    font-size: 4px;
+}
+
+@media screen and (min-width:1400px) {
+    html {
+        font-size: 6px;
+    }
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: PingFang SC, sans-serif;
+    padding: 0 2%;
+    color: #F5F5F5;
+    font-size: 4rem;
+    line-height: 5.25rem;
+    background: linear-gradient(192.04deg, #1D0D36 0%, #111111 100%);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.glass {
+    position: relative;
+    margin: 2.5rem auto;
+    max-width: 900px;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 2%;
+    text-align: center;
+    padding: 5rem;
+}

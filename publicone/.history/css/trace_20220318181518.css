@@ -1,0 +1,47 @@
+.card {
+    border-radius: 2%;
+    background: #241A34;
+    margin-top: 10rem;
+}
+
+.card p {
+    padding-left: 5rem;
+}
+
+.card-style {
+    position: relative;
+    top: -5rem;
+}
+
+.card-img {
+    vertical-align: bottom;
+    width: 10rem;
+    margin-right: 3rem;
+}
+
+.trace-glass {
+    background: #241A34;
+}
+
+.forward {
+    float: right;
+    width: 8%;
+    color: #fff;
+}
+
+.select {
+    display: flex;
+    flex-direction: column;
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.slider {
+    margin-left: 1rem;
+    margin-top: .75rem;
+    width: 7rem;
+}
+
+.video-class {
+    text-align: center;
+}

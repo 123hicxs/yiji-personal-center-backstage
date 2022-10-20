@@ -1,0 +1,37 @@
+p {
+    font-size: 3.5rem;
+}
+
+.problem-detail {
+    height: 100vh;
+    position: relative;
+    font-weight: 400;
+}
+
+.no-resolve {
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    opacity: .7;
+    width: 100%;
+    text-align: center;
+    font-size: 3.5rem;
+    height: 20rem;
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.zhuan-zai {
+    width: 100%;
+    margin-bottom: 7rem;
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.zhuan-zai a {
+    float: left;
+    margin-top: -1rem;
+}

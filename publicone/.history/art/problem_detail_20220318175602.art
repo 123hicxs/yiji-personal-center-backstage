@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/problem_detail.css">
+
+    <title id="title">{{elementData.title}}</title>
+    <script>
+        window.onpageshow = function(event) {
+            if (event.persisted) {
+                window.location.reload();
+            }
+        };
+    </script>
+</head>
+
+<body>
+    <div class="problem-detail">
+        <div class="zhuan-zai">
+            <a href="./help.html" style="display:inline-block;width: 5%;"><img src="./img/lt.png" alt="" id="no-img" style="width: 2.5rem;"></a>
+            关于我们
+        </div>
+        <p><img src="./img/AMSlash.svg" alt="" style="width: 65%;margin-bottom: 2rem;"></p>
+        {{each cyclicData}}
+        <p id="problem-description">{{$value[0]}}</p>
+        {{/each}}
+        <div class="no-resolve" id="middle-deal">未解决 (继续反馈)</div>
+    </div>
+
+
+</body>
+
+</html>

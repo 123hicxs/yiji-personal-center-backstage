@@ -1,0 +1,17 @@
+.head_portrait {
+    margin-right: 1.25rem;
+}
+
+.my-video {
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    background-color: #c4c4c4;
+}
+
+.my-img {
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    background-color: #c4c4c4;
+}

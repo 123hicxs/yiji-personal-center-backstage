@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/help.css">
+
+    <title id="title">问题反馈a</title>
+</head>
+
+<body>
+    <div class="help">
+        <ul class="glass">
+            <a href="">
+                <li>隐私政策<span><img src="./img/nextpage.svg" alt=""></span></li>
+            </a>
+            <a href="./withdraw.html">
+                <li>注销账号<span><img src="./img/nextpage.svg" alt=""></span></li>
+            </a>
+
+        </ul>
+        <ul class="glass">
+            <a href="help_cjwt.html">
+                <li>产品手册<span><img src="./img/nextpage.svg" alt=""></span></li>
+            </a>
+            <a href="./problem_feedback.html">
+                <li>问题意见<span><img src="./img/nextpage.svg" alt=""></span></li>
+            </a>
+
+        </ul>
+        <ul class="glass">
+            <a href="./contact_us.html">
+                <li>联系我们<span><img src="./img/nextpage.svg" alt=""></span></li>
+            </a>
+            <a href="./problem_detail.html">
+                <li>关于我们<span><img src="./img/nextpage.svg" alt=""></span></li>
+            </a>
+
+        </ul>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>

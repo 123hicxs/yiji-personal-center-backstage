@@ -1,0 +1,12 @@
+.description {
+    position: absolute;
+}
+
+.description p:first-child {
+    font-weight: bold;
+}
+
+.glass img {
+    width: 70%;
+    max-width: 600px;
+}

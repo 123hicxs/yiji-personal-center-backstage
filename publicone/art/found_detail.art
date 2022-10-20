@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/found_detail.css">
+    <script src="./js/jQuery.js"></script>
+    <script src="./js/found_detail.js"></script>
+    <title id="title">{{elementData.title}}</title>
+
+
+
+</head>
+
+<body>
+    <div class="found-detail">
+        <div class="zhuan-zai">
+            <a href="./index.html" style="display:inline-block;width: 5%;"><img src="./img/lt.png" alt="" id="no-img" style="width: 2.5rem;"></a>
+            <a href="#" class="forward"><img src="./img/zhuanzai.svg" alt="" id="no-img"></a>
+        </div>
+        <p class="title" style="  font-size: 4.5rem;font-weight: bold;" id="topic">{{elementData.abstractData[0]}}</p>
+        <div>
+            <a href="javascript:" style="font-weight: 500;" id="nick-name">
+                <img id="no-img" class="head" src="./img/head_portrait.png" alt="" style="margin-right: 1.25rem;">烊烊快跑</a>
+        </div>
+        <p style="font-weight: 500;" id="abstract">{{elementData.abstractData[1]}}</p>
+        {{each cyclicData}}
+        <div id="display-module">
+            <p class="description-style">{{$value[0]}}</p>
+            <div style="text-align: center;"><video class="my-video" src="{{$value[1]}}" muted autoplay controls></video></div>
+        </div>
+        {{/each}}
+        <div id="display-module">
+            <p class="description-style">使用我们这款app对我使用买的桌子和椅子很有帮助，很方便，直接在手机上控制就可以。 使用我们这款app对我使用买的桌子和椅子很有帮助，</p>
+            <div style="text-align: center;"><video class="my-video" src="./video/demo.mp4" muted controls></video></div>
+        </div>
+      
+        <div id="display-module">
+            <p class="description-style">使用我们这款app对我使用买的桌子和椅子很有帮助，很方便，直接在手机上控制就可以。 使用我们这款app对我使用买的桌子和椅子很有帮助，下面是一张超高清图片，加载有点慢哦。</p>
+            <div style="text-align: center;"><img class="my-img" src="./img/wallhaven-j3wqwp.png" /></div>
+        </div>
+        <div class="love-nice">
+            <span>456</span>
+            <a href=""><img src="./img/nice.png" alt="" id="no-img"></a>
+            <span>123</span>
+            <a href=""><img src="./img/heart.png" alt="" id="no-img"></a>
+        </div>
+    </div>
+    <div class="greater">
+        <div class="zhuan-zai">
+            <a href="#" style="display:inline-block;width: 5%;"><img src="./img/lt.png" alt="" id="no-img" style="width: 2.5rem;"></a>
+        </div>
+        <div class="video-img">
+            <div class="video-img-box">
+
+            </div>
+        </div>
+        <div class="pages"></div>
+    </div>
+    <div class="head-greater">
+        <div class="header-img-box">
+            <img src="./img/head_portrait.svg" alt="" id="no-img">
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

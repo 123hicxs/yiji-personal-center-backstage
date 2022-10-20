@@ -1,0 +1,130 @@
+.recommend-other {
+    width: 100%;
+    overflow: hidden;
+}
+
+.video-css {
+    width: 96%;
+    height: 50rem;
+}
+
+.nav * {
+    float: left;
+    margin-right: 4rem;
+}
+
+.nav a {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.nav a:first-child {
+    margin-right: 1rem;
+}
+
+.nav a:first-child img {
+    width: 70%;
+    margin-top: -3rem;
+}
+
+.nav a.select {
+    display: flex;
+    flex-direction: column;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.slider {
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    width: 7rem;
+}
+
+.diagrama-carrusl {
+    display: flex;
+    width: 500%;
+    cursor: pointer;
+    user-select: none;
+}
+
+.content {
+    display: flex;
+    flex: 100%;
+}
+
+.glass-new-product {
+    position: relative;
+    overflow: hidden;
+}
+
+.content-left {
+    flex: 5;
+    padding-left: 8%;
+}
+
+.content-left a {
+    padding: 2rem;
+    border-radius: 4rem;
+    font-size: 2.5rem;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.content-left a::after {
+    content: "GO";
+    margin-left: 1.25rem;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #cccc00, purple);
+    padding: .5rem;
+}
+
+.content-right {
+    flex: 5;
+}
+
+.content-right img {
+    width: 100%;
+}
+
+.click-change {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    margin-left: -18rem;
+}
+
+.click-change li {
+    float: left;
+    padding: 1rem;
+    border-radius: 50%;
+    background: #F5F5F566;
+    margin-right: 5rem;
+}
+
+.content-box {
+    display: flex;
+    width: 200%;
+    touch-action: none;
+    touch-action: pan-y;
+}
+
+.content-one {
+    width: 100%;
+    height: auto;
+}
+
+.content-two {
+    width: 100%;
+    background-color: pink;
+}
+
+.forward {
+    float: right;
+    width: 7rem;
+    color: #ccc;
+}
+
+div#module-single {
+    cursor: pointer;
+}

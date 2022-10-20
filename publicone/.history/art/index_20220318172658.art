@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/recommend_other.css">
+    <script src="./js/jQuery.js"></script>
+    <script src="./js/recommend_other.js"></script>
+    <title id="title">{{elementData.title}}</title>
+</head>
+
+<body>
+    <div class="recommend-other" id="recommend-module">
+        <div class="nav">
+            <a href="./trace.html"><img src="./img/head_portrait.png" alt=""></a>
+            <a href="#" class="select">推荐
+                <img src="./img/slider.png" alt="" class="slider">
+            </a>
+            <a href="#">其他</a>
+        </div>
+        <div class="content-box">
+            <div class="content-one">
+                <div class="glass glass-new-product">
+                    <div class="diagrama-carrusl">
+                        <div class="content">
+                            <div class="content-left">
+                                <p style="font-weight: bold;font-size: 5.5rem;">新品即将上线</p>
+                                <p style="font-weight: 500;font-size: 4rem;">使用我们这款app</p>
+                                <a href="#">了解更多</a>
+                            </div>
+                            <div class="content-right">
+                                <img src="./img/chair.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="content-left">
+                                <p style="font-weight: bold;font-size: 5.5rem;">新品即将上线</p>
+                                <p style="font-weight: 500;font-size: 4rem;">使用我们这款app</p>
+                                <a href="#">了解更多</a>
+                            </div>
+                            <div class="content-right">
+                                <img src="./img/chair.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="content-left">
+                                <p style="font-weight: bold;font-size: 5.5rem;">新品即将上线</p>
+                                <p style="font-weight: 500;font-size: 4rem;">使用我们这款app</p>
+                                <a href="#">了解更多</a>
+                            </div>
+                            <div class="content-right">
+                                <img src="./img/chair.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="content-left">
+                                <p style="font-weight: bold;font-size: 5.5rem;">新品即将上线</p>
+                                <p style="font-weight: 500;font-size: 4rem;">使用我们这款app</p>
+                                <a href="#">了解更多</a>
+                            </div>
+                            <div class="content-right">
+                                <img src="./img/chair.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="content-left">
+                                <p style="font-weight: bold;font-size: 5.5rem;">新品即将上线</p>
+                                <p style="font-weight: 500;font-size: 4rem;">使用我们这款app</p>
+                                <a href="#">了解更多</a>
+                            </div>
+                            <div class="content-right">
+                                <img src="./img/chair.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="click-change">
+                        <li style="background:#8E33CC;"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                {{each cyclicData}}
+                <div class="glass" id="module-single">
+                    <p style="font-weight: 500;"><img src="./img/head_portrait.png" alt="" style="margin-right: 2rem;width: 8rem;">{{$value[0]}}
+                        <a href="#"><img class="forward" src="./img/zhuanzai.svg" alt=""></a>
+                    </p>
+                    <div style="text-align: center;">
+                        <video class="video-css" autoplay controls muted>
+                            <source src="{{$value[1]}}" type="video/mp4">
+                            您的浏览器版本太低，不支持mp4格式视频！
+                            <span><img src="./img/pause.png" alt=""></span>
+                        </video>
+                    </div>
+                    <div>
+                        <p style="font-weight: 500;">{{$value[2]}}</p>
+                        <p style="font-size: 3.5rem; opacity: .7;">{{$value[3]}}</p>
+                    </div>
+                </div>
+                {{/each}}
+                <div class="glass" id="module-single">
+                    <p style="font-weight: 500;"><img src="./img/head_portrait.png" alt="" style="margin-right: 2rem;width: 8rem;">以及
+                        <a href="#"><img class="forward" src="./img/zhuanzai.svg" alt=""></a>
+                    </p>
+                    <div style="text-align: center;">
+                        <video class="video-css" autoplay controls muted>
+                            <source src="./video/demo.mp4" type="video/mp4">
+                            您的浏览器版本太低，不支持mp4格式视频！
+                            <span><img src="./img/pause.png" alt=""></span>
+                        </video>
+                    </div>
+                    <div>
+                        <p style="font-weight: 500;">智能家居未来的发展趋势/Subtitle3 2</p>
+                        <p style="font-size: 3.5rem; opacity: .7;">尊敬的用户您好，今日您使用产品的总时长已达到6小时，且坐下时间</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="content-two">
+                <div class="glass glass-new-product">
+                    <div class="diagrama-carrusl">
+                        <div class="content">
+                            <div class="content-left">
+                                <p style="font-weight: bold;font-size: 5.5rem;">新品即将上线了啊</p>
+                                <p style="font-weight: 500;font-size: 4rem;">使用我们这款app,不用揍你~！</p>
+                                <a href="#">了解更多</a>
+                            </div>
+                            <div class="content-right">
+                                <img src="./img/chair.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="content-left">
+                                <p style="font-weight: bold;font-size: 5.5rem;">新品即将上线了啊</p>
+                                <p style="font-weight: 500;font-size: 4rem;">使用我们这款app,不用揍你~！</p>
+                                <a href="#">了解更多</a>
+                            </div>
+                            <div class="content-right">
+                                <img src="./img/chair.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="content-left">
+                                <p style="font-weight: bold;font-size: 5.5rem;">新品即将上线了啊</p>
+                                <p style="font-weight: 500;font-size: 4rem;">使用我们这款app,不用揍你~！</p>
+                                <a href="#">了解更多</a>
+                            </div>
+                            <div class="content-right">
+                                <img src="./img/chair.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="content-left">
+                                <p style="font-weight: bold;font-size: 5.5rem;">新品即将上线了啊</p>
+                                <p style="font-weight: 500;font-size: 4rem;">使用我们这款app,不用揍你~！</p>
+                                <a href="#">了解更多</a>
+                            </div>
+                            <div class="content-right">
+                                <img src="./img/chair.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="content-left">
+                                <p style="font-weight: bold;font-size: 5.5rem;">新品即将上线了啊</p>
+                                <p style="font-weight: 500;font-size: 4rem;">使用我们这款app,不用揍你~！</p>
+                                <a href="#">了解更多</a>
+                            </div>
+                            <div class="content-right">
+                                <img src="./img/chair.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="click-change">
+                        <li style="background:#8E33CC;"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="glass" id="module-single">
+                    <p style="font-weight: 500;"><img src="./img/head_portrait.png" alt="" style="margin-right: 1.75rem;">以及</p><video src="视频路径" style="width: 100%;background: #686868;" controls muted></video>
+                    <div class="remind_message">
+                        <p style="font-weight: 500;">智能家居未来的发展趋势/Subtitle3 3</p>
+                        <p style="font-size: 3.5rem; opacity: .7;">尊敬的用户您好，今日您使用产品的总时长已达到6小时，且坐下时间～</p>
+                    </div>
+                </div>
+                <div class="glass" id="module-single">
+                    <p style="font-weight: 500;"><img src="./img/head_portrait.png" alt="" style="margin-right: 1.75rem;">我去</p><video src="视频路径" style="width: 100%;background: #686868;" controls muted></video>
+                    <div class="remind_message">
+                        <p style="font-weight: 500;">智能家居未来的发展趋势/Subtitle3 1</p>
+                        <p style="font-size: 3.5rem; opacity: .7;">尊敬的用户您好，今日您使用产品的总时长已达到6小时，且坐下时间～</p>
+                    </div>
+                </div>
+                <div class="glass" id="module-single">
+                    <p style="font-weight: 500;"><img src="./img/head_portrait.png" alt="" style="margin-right: 1.75rem;">以及</p><video src="视频路径" style="width: 100%;background: #686868;" controls muted></video>
+                    <div class="remind_message">
+                        <p style="font-weight: 500;">智能家居未来的发展趋势/Subtitle3 2</p>
+                        <p style="font-size: 3.5rem; opacity: .7;">尊敬的用户您好，今日您使用产品的总时长已达到6小时，且坐下休息一会～</p>
+                    </div>
+                </div>
+                <div class="glass" id="module-single">
+                    <p style="font-weight: 500;"><img src="./img/head_portrait.png" alt="" style="margin-right: 1.75rem;">以及</p><video src="视频路径额" style="width: 100%;background: #686868;" controls muted></video>
+                    <div class="remind_message">
+                        <p style="font-weight: 500;">智能家居未来的发展趋势/Subtitle3 3</p>
+                        <p style="font-size: 3.5rem; opacity: .7;">尊敬的用户您好，今日您使用产品的总时长已达到6小时，且坐下休息一会～</p>
+                    </div>
+                </div>
+                <div class="glass" id="module-single">
+                    <p style="font-weight: 500;"><img src="./img/head_portrait.png" alt="" style="margin-right: 1.75rem;">以及科技</p><video src="视频路径" style="width: 100%;background: #686868;" controls muted></video>
+                    <div class="remind_message">
+                        <p style="font-weight: 500;">智能家居未来的发展趋势/Subtitle3 3</p>
+                        <p style="font-size: 3.5rem; opacity: .7;">尊敬的用户您好，今日您使用产品的总时长已达到6小时，且坐下休息一会～</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer">
+        <a href="./help.html">点击跳转下一页</a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

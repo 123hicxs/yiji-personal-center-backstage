@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/problem_feedback.css">
+    <script src="./js/jQuery.js"></script>
+    <script src="./js/problem_feedback.js"></script>
+
+    <title id="title">问题反馈</title>
+</head>
+
+<body>
+    <div class="problem-feedback">
+        <div class="zhuan-zai">
+            <a href="./help.html" style="display:inline-block;width: 5%;"><img src="./img/lt.png" alt="" id="no-img" style="width: 2.5rem;"></a>
+            问题反馈
+        </div>
+        <p>问题意见*</p>
+        <div class="text-box" name="" id="">
+            <textarea class="text-opinion glass" name="" id="" cols="30" rows="10">请填写您的问题与意见，感谢您的反馈~</textarea>
+        </div>
+        <p style="margin-top: 7rem;">上传照片*</p>
+        <label for="upload" class="upload-photos">
+            <button class="iconfont select-photos">&#xe64d;</button>
+            <input type="file" id="upload" style="opacity: 0;" >
+        </label>
+        <button class="submit">提交</button>
+        <div class="submitSuccess">
+            <span>提交成功，我们将认真听取您的意见及反馈</span>
+        </div>
+    </div>
+
+</body>
+
+</html>
